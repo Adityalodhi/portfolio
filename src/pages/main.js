@@ -5,15 +5,9 @@ import Home from './pages/index';
 
 import './styles/globals.css';
 
-
-  
-
-function App() {
-  return (
-    <MyApp>
+ReactDOM.render(
+  <MyApp>
     <Home />
-    </MyApp>
-  );
-}
-
-export default App;
+  </MyApp>,
+  document.getElementById('root')
+);
